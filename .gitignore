@@ -244,3 +244,23 @@ workspace/
 .DS_Store
 Thumbs.db
 voices-v1.0.bin
+# Local Windows installation: secrets, dependencies, generated media
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+!.env.template
+.cache/
+__pycache__/
+*.log
+*.pid
+credentials/
+tokens/
+cookies/
+cookies*.txt
+client_secret*.json
+*token*.pkl
+*token*.pickle
+youtube_token.json
+local-smoke/
